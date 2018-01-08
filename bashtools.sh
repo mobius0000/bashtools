@@ -6,9 +6,9 @@
 #
 
 # valeur du dossier contenant les librairies
-$_FOLDER='./includes'
-$_VAR='variables.sh'
-$_FUNC='functions.sh'
+_FOLDER='./includes'
+_VAR='variables.sh'
+_FUNC='functions.sh'
 
 # vérification existence dossier
 if [[ -d "$_FOLDER" ]] && [[ -f "$_FOLDER/$_FUNC" ]] && [[ -f "$_FOLDER/$_VAR" ]];
