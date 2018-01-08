@@ -16,8 +16,7 @@ if [[ -d "$_FOLDER" ]] && [[ -f "$_FOLDER/$_FUNC" ]] && [[ -f "$_FOLDER/$_VAR" ]
         # inclusion des fichiers 
         source $_FOLDER/$_VAR && source $_FOLDER/$_FUNC
         
-        [ $? -eq 0 ] && create_message 'ok' 'inclusion des fichiers réussie' \ 
-                     || echo "\e[1;31m erreur: inclusion échouée.\e[0;m"
+        [ $? -eq 0 ] && create_message 'ok' 'inclusion des fichiers réussie' || echo "\e[1;31m erreur: inclusion échouée.\e[0;m"
 
     else
         echo -e "\e[1;31m erreur: le dossier includes est introuvable.\e[0;m"
