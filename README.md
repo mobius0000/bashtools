@@ -1,4 +1,4 @@
-### bash-utils
+# bash-utils
 
 BashUtils est un projet *opensource* permettant de recenser un ensemble de fonctions usuelles pour tout administrateur GNU/Linux.
 
